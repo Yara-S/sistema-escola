@@ -1,0 +1,12 @@
+*{ margin:0; padding: 0; }
+
+body{ font-family: arial; font-size: 15px; color:#123; }
+header {height: 50px; background-color:  #3498db; padding: 10px 10px }
+footer {color:#ffffff; height: 30px; background-color:  #000000 ; padding: 10px 10px}
+
+
+
+
+.container{margin: 0 auto; width: 1500px;}
+
+#conteudo {background-color: #aed6f1 ; padding: 10px 5px}
