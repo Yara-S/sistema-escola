@@ -1,5 +1,17 @@
 <?php 
 
+include 'header.php';
+
+include 'home.php';
+
+include 'footer.php';
+
+
+
+
+
+
+/*
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
@@ -8,7 +20,7 @@ $database = "escola";
 $conexao = mysqli_connect($servidor, $usuario, $senha, $database);
 
 
-/*
+
 $query = "CREATE TABLE alunos (id_aluno int not null auto_increment primary key, nome varchar(40), nascimento date, bairro varchar(40))";
 
 $query2 = "CREATE TABLE cursos (id_curso int not null auto_increment primary key, nome varchar(40), ch int)";
@@ -36,7 +48,7 @@ $query = "UPDATE cursos set nome = 'Engenharia da Computacao' where nome = 'Enge
 $execucao = mysqli_query($conexao, $query); 
 #$execucao2 = mysqli_query($conexao, $query2);  
 #$execucao3 = mysqli_query($conexao, $query3); 
-*/
+
 
 
 echo '<table style = "width:100%" border = 1>
@@ -68,3 +80,5 @@ while ($linha = mysqli_fetch_array($consulta)){
 
 
 echo '</table>';
+
+*/
