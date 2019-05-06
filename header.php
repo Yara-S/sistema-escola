@@ -9,15 +9,16 @@
 
 	<body>
 		<header>
-			<img src="imgs/dolphin1.png">
+			<a href="?pagina=home"><img src="imgs/dolphin1.png"> </a>
+			
 
-			<div id="menu">
-				<a href="#">Lista de alunos</a>
-				<a href="#">Consultar notas</a>
-				<a href="#">Inserir nota</a>
+			<div id="menu", class="container">
+				<a href="?pagina=listadealunos">Lista de alunos</a>
+				<a href="?pagina=consultarnotas">Consultar notas</a>
+				<a href="?pagina=inserirnota">Inserir nota</a>
 
 
 
 		</header>
 
-		<div id="conteudo", class="container">
+		<div id="conteudo", class="container"> 

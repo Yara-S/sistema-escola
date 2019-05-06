@@ -1,16 +1,4 @@
-Bem vindo ao sistema de ensino
-/.
+<div id="tituloHOME">
 
-teste
-
-
-
-teste
-
-
-aloou
-
-
-aloooo
-
-olaaaa
+	<h1>Bem vindo ao sistema de ensino golfinho</h1>
+</div>
