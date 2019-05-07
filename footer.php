@@ -1,6 +1,7 @@
 </div>
+</body>
 
 <footer>
-	All rights reserved;
+	©2019 SEG - Todos os direitos reservados
 
 </footer>
