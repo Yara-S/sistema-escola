@@ -7,12 +7,12 @@ footer {position:fixed; bottom:0; left:0; right:0; color:#ffffff; height: 30px; 
 
 
 
-.container{margin: 0 auto; width: 1500px;}
+.container1{margin: 0 auto; width: 1500px;} 
 
-#conteudo { background-color: #aed6f1 ;padding: 30px 5px; font-size: 16px; height: 100%}
+#conteudo { background-color: #aed6f1 ;padding: 30px 25px; font-size: 16px; height: 100%;}
 
-#menu{ float: right; font-size: 16px; padding: 15px 25px;}
-#menu a{ text-decoration: none; padding: 10px 180px; color: #ffffff;}
+#menu{ float: right; font-size: 16px; padding: 15px 50px; font-family: helvetica }
+#menu a{ text-decoration: none; padding: 10px 170px; color: #ffffff;}
 #menu a:hover {background-color: #aed6f1; }
 
 #tituloHOME {text-align: center;} 

@@ -4,15 +4,15 @@
 <form method="POST" action="">
 	<br>
 	<p> Selecione o curso </p>
-	 <select name="escolha_curso">
+	 <select class="form-control" name="escolha_curso">
 	 	<?php
 	 		while ($linha = mysqli_fetch_array($consulta_cursos)){
 	 			echo '<option value="'.$linha['id_curso'].'">'.$linha['nome_curso'].'</option>';
 	 		}
 	 	?>
 	 </select>
-	 <br><br>
-	 <input type="submit" value = "  Selecionar curso  ">
+	 <br>
+	 <input type="submit" value = "  Selecionar curso  " class="btn btn-primary">
  </form>
 
  <?php
@@ -26,7 +26,7 @@
        <form method="POST" action="processaNota.php">
 			<br>
 			<p> Selecione o aluno </p>
-			 <select name="escolha_aluno">
+			 <select class="form-control" name="escolha_aluno">
 			 	<?php
 			 		while ($linha = mysqli_fetch_array($consulta_alunos)){
 			 			if($linha['id_curso'] == $curso_escolhido){
@@ -34,11 +34,11 @@
 			 			}
 			 		}
 			 	?>
-			 </select>
-			 <input type="text" placeholder="Insira a nota" name = "nota">
-			 <input type="text" placeholder="Insira descrição" name= "desc">
+			 </select><br>
+			 <input class="form-control" type="text" placeholder="Insira a nota" name = "nota"><br>
+			 <input class="form-control" type="text" placeholder="Insira descrição" name= "desc">
 			 <br><br>
-			 <input type="submit" value = "  Inserir nota  ">
+			 <input type="submit" value = "  Inserir nota  " class="btn btn-primary">
 		 </form>
 
 		 <?php

@@ -3,11 +3,11 @@
 </div>
 <form method="POST" action="">
 	<br>
-	 <input type="radio" name="nome_curso" value="2" > Ciência da Computação <br><br>
-	 <input type="radio" name="nome_curso" value="1" > Sistemas de Informação <br><br>
-	 <input type="radio" name="nome_curso" value="4" > Análise de Sistemas <br><br>
-	 <input type="radio" name="nome_curso" value="3" > Engenharia da Computação <br><br>
-	 <input type="submit" value="  Buscar  " ><br><br>
+	 <input class="form-check-input" type="radio" name="nome_curso" value="2" > Ciência da Computação <br><br>
+	 <input class="form-check-input" type="radio" name="nome_curso" value="1" > Sistemas de Informação <br><br>
+	 <input class="form-check-input" type="radio" name="nome_curso" value="4" > Análise de Sistemas <br><br>
+	 <input class="form-check-input" type="radio" name="nome_curso" value="3" > Engenharia da Computação <br><br>
+	 <input type="submit" value="  Buscar  " class="btn btn-primary"><br><br>
  <form>
 
 
@@ -21,12 +21,18 @@
 
 ?>
 
-	<table style = "border:2px solid #ccc; width:100%"; >
-		<tr>	
-			<th> ID </th>
-			<th> Nome do Aluno</th>
-			<th> Curso </th>
-		</tr>
+	<table id="alunos" >
+		<thead>
+
+			<tr>	
+				<th> ID </th>
+				<th> Nome do Aluno</th>
+				<th> Curso </th>
+			</tr>
+
+		</thead>
+
+		<tbody>
 
 <?php
 
@@ -50,5 +56,6 @@
 		
 }
 ?>
+</tbody>
 
 </table>
