@@ -1,7 +1,7 @@
 *{ margin:0; padding: 0; }
 
 body{ font-family: helvetica; font-size: 15px; color:#123; }
-header {height: 50px; background-color:  #3498db; padding: 0px 10px }
+header {height: 50px; background-color:  #3498db; padding: 0px 10px; width: 100%; }
 footer {position:fixed; bottom:0; left:0; right:0; color:#ffffff; height: 30px; background-color:  #000000 ; padding: 10px 10px; text-align: center}
 
 
@@ -11,8 +11,8 @@ footer {position:fixed; bottom:0; left:0; right:0; color:#ffffff; height: 30px; 
 
 #conteudo { background-color: #aed6f1 ;padding: 30px 25px; font-size: 16px; height: 100%;}
 
-#menu{ float: right; font-size: 16px; padding: 15px 50px; font-family: helvetica }
-#menu a{ text-decoration: none; padding: 10px 170px; color: #ffffff;}
+#menu{ width: 1500px; float: right; text-align: center; font-size: 16px;  font-family: helvetica; margin-right: 90px; padding: 15px 0px;}
+#menu a{ text-decoration: none; color: #ffffff; padding: 20px 70px;}
 #menu a:hover {background-color: #aed6f1; }
 
 #tituloHOME {text-align: center;} 

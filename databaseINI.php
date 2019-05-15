@@ -48,5 +48,11 @@ $query = "INSERT INTO aluno_curso (id_aluno, id_curso) values (3,3), (4,4), (5,1
 $execucao = mysqli_query($conexao, $query); 
 
 $query = "INSERT INTO notas (id_aluno_curso, descricao, nota_valor) values (1, 'P1', 8.7), (2, 'P1', 0.7)(3, 'P1', 7.2),(4, 'P1', 3.7),(5, 'P1', 5.0),(6, 'P1', 6.1),(7, 'P1', 9.8)";
+$execucao = mysqli_query($conexao, $query);
 
+$query = "CREATE TABLE usuarios (usuario varchar(40) not null primary key unique, senha varchar(40));"
+$execucao = mysqli_query($conexao, $query);
+
+$query = "INSERT INTO usuarios (usuario, senha) VALUES ('professor1', '0192023a7bbd73250516f069df18b500');"
+$execucao = mysqli_query($conexao, $query);
 ?>

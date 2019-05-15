@@ -2,6 +2,7 @@
 <h1> Escolha o curso e aluno </h1>
 </div>
 <form method="POST" action="">
+	<div class="row">
 	<br>
 	<p> Selecione o curso </p>
 	 <select class="form-control" name="escolha_curso">
@@ -12,6 +13,7 @@
 	 	?>
 	 </select>
 	 <br>
+	</div>
 	 <input type="submit" value = "  Selecionar curso  " class="btn btn-primary">
  </form>
 

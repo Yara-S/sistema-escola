@@ -1,6 +1,7 @@
 <!DOCTYPE htmn>
 <html>
 	<head>
+		<link rel="shortcut icon" href="imgs/dolphin1.ico" type="image/x-icon" />
 		<title> Sistema de Ensino Golfinho</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="css/bootstrap.min.css"> 
@@ -12,13 +13,21 @@
 
 	<body>
 		<header>
-			<a href="?pagina=home"><img src="imgs/dolphin1.png"> </a>
+			<a <?php if(isset($_SESSION['login'])){ ?> href="?pagina=seg" <?php } else { ?> href="?pagina=home" <?php } ?> > <img src="imgs/dolphin1.png"> </a>
 			
 
-			<div id="menu" class="container1">
+			<div id="menu" >
 				<a href="?pagina=listadealunos">Lista de alunos</a>
 				<a href="?pagina=consultarnotas">Consultar notas</a>
 				<a href="?pagina=inserirnota">Inserir nota</a>
+
+				<?php
+					if(isset($_SESSION['login'])){
+				?>
+						<a href="logout.php"> <?php echo $_SESSION['usuario']; ?> (Sair) </a>
+				<?php
+					}
+				?>
 
 			</div>
 
