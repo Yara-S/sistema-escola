@@ -1,4 +1,4 @@
-<!DOCTYPE htmn>
+<!DOCTYPE html>
 <html>
 	<head>
 		<link rel="shortcut icon" href="imgs/dolphin1.ico" type="image/x-icon" />
